@@ -34,3 +34,12 @@ body {
   margin-top: 10px;
   background-color: blanchedalmond;
 }
+
+.caja3 {
+  border: 1px solid black;
+  height: 50px;
+  width: 300px;
+  margin: 30px; /* Margen hacía afuera*/
+  padding: 50px; /* Margen dentro de la caja*/
+  background-color: blue;
+}
