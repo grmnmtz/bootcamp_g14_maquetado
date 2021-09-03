@@ -1,0 +1,36 @@
+h3 {
+  color: darkorchid;
+}
+
+h4 {
+  color: deepskyblue;
+  text-align: center;
+  font-size: 100%;
+}
+
+body {
+  background-color: #000;
+  background-color: rgb(11, 197, 110);
+  background-color: rgba(11, 197, 110, 0.555);
+}
+
+#parrafo1 {
+  color: blanchedalmond;
+}
+
+#parrafo2 {
+  color: black;
+}
+
+.caja {
+  border: 1px solid black;
+  height: 50px;
+  width: 300px;
+  margin: 30px; /* Margen hacía afuera*/
+  padding: 50px; /* Margen dentro de la caja*/
+}
+
+.caja#cajaRoja {
+  margin-top: 10px;
+  background-color: blanchedalmond;
+}
