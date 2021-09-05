@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  background-color: #fff059;
+  height: 250px;
+  width: 100%;
+  max-width: 1000%;
+}
+
+.main-logo {
+  width: 140px;
+  float: left;
+}
+
+.question-logo {
+  width: 30px;
+  float: right;
+}
+
+main {
+  background-color: #e6e6e6;
+  height: 850px;
+  width: 100%;
+  max-width: 1000%;
+}
+
+.main-form {
+  background-color: #ffffff;
+  height: 400px;
+  width: 200px;
+}
+
+footer {
+  background-color: #ffffff;
+  height: 100px;
+  width: 90%;
+  max-width: 1000%;
+}
