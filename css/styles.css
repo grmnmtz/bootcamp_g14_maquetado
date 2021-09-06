@@ -45,7 +45,7 @@ main {
 
 .credentials {
   margin-bottom: 20px
-  padding: 10px 20px 40px 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 .login-text {
@@ -62,10 +62,10 @@ main {
 .login-text {
   height: 30px;
   width: 200px
-  font-size: 16px;
+  font-size: 30px;
   padding: 0px 10px 5px 10px ;
   margin: 0 ;
-  margin-bottom: 30px
+  margin-bottom: 15px
 }
 
 .captcha {
@@ -85,7 +85,7 @@ main {
   background-color: #2979da;
   padding: 14px 120px 14px 120px;
   border-radius: 5px 5px 5px 5px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-color: #2979da;
 }
 
