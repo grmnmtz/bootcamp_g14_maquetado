@@ -32,22 +32,29 @@
     </header>
     <main>
       <div class="card">
-        <form action="">
-          <div>
-            <h2>¡Hola! Ingresa tu teléfono, e‑mail o usuario</h2>
+        <div class="center-card-header">
+          <h2 class="center-card-title">¡Hola! Ingresa tu teléfono,<br> e‑mail o usuario</h2>
+        </div>
+        <form action="" login-form>
+          <div class="telefono">
+            <div><span class="input-title">Teléfono, e-mail o usuario</span>
+            </div class="credentials">
+            <div class="text-container">
+              <input type="text" class="login-text"/>
+            </div>
           </div>
-          <div><p>Teléfono, e-mail o usuario</p></div>
           <div>
-            <input type="text" />
+            <button type="submit" class="continuar">
+             <a href="#">Continuar</a> 
+            </button>
           </div>
           <div>
-            <button type="submit">Continuar</button>
-          </div>
-          <div>
-            <button type="submit">Crear cuenta</button>
+            <button type="submit" class="crear">
+              <a href="#">Crear cuenta</a>
           </div>
           <div class="ayuda">
-            <p>Necesito ayuda para ingresar</p>
+            <a href="#">Necesito ayuda para ingresar
+            </a>
           </div>
         </form>
       </div>
