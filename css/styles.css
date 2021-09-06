@@ -12,9 +12,11 @@ body {
 .main-logo {
   width: 140px;
   float: left;
+  padding: 10px 0 0px 40px;
 }
 
 .question-logo {
+  padding: 10px 40px 0px 0;
   width: 30px;
   float: right;
 }
@@ -26,15 +28,33 @@ main {
   max-width: 1000%;
 }
 
-.main-form {
+.card {
+  text-align: center;
+  margin: 0 auto;
   background-color: #ffffff;
   height: 400px;
-  width: 200px;
+  width: 400px;
+}
+
+.captcha {
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.captcha p a {
+  text-decoration: none;
 }
 
 footer {
+  text-align: center;
+  margin: 0 auto;
   background-color: #ffffff;
   height: 100px;
-  width: 90%;
+  width: 600px;
   max-width: 1000%;
+}
+
+footer .parrafo2 {
 }
