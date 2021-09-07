@@ -334,7 +334,7 @@ margin: 0 50px 10px 20px;
 
 footer {
   background: black;
-  height: 30vh;
+  height: 25vhvh;
 }
 
 .footer-container {
@@ -348,19 +348,48 @@ footer {
 .main-footer-content {
   display: flex;
   justify-content:flex-start;
-  align-items: flex-end;
+}
+
+.preguntas {
+  
+  color: #807e7e
 }
 
 .second-main-footer-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-between;
+  align-items:center;
   flex-wrap: wrap;
-  align-items: flex-start;
+  padding: 20px 0 20px 0;
 }
 
 .second-main-footer-content a {
   text-decoration: none;
-  color: #303030;
+  color: #807e7e;
+}
+
+.first-column, 
+.second-column,
+.third-column,
+.fourth-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items:stretch;
+}
+
+
+
+.button-footer {
+  padding: 10px 0 30px 0;
+}
+
+.first-column a, 
+.second-column a,
+.third-column a,
+.fourth-column a {
+  padding: 5px 0 5px 0;
 }
 
 .idioma-2 {
@@ -374,4 +403,12 @@ footer {
   text-align: center;
   text-decoration: none;
   margin-right: 25px;
+}  
+
+.netflix-footer {
+  padding: 30px 0 0px 0;
+}
+
+.netflix-footer p {
+  color: #807e7e;
 }
