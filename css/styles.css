@@ -16,7 +16,7 @@ body {
   }
 
 .hero {
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -98,8 +98,6 @@ body {
   font-size: 1.125rem;
 }
 
-input {
-}
 
 .form-start {
   display: flex;
@@ -150,10 +148,10 @@ input:focus {
     height: 40vh;
     border-top: 7px rgb(46, 46, 46) solid;
     border-bottom: 7px rgb(46, 46, 46) solid;
-    font-family: ;
+    padding: 50px 0px 50px 0px;
 }
 
-.show1 h2, h3{
+.show1 h2, .show1 h3{
     margin: 0 30px 10px 80px;
 }
 
@@ -162,7 +160,175 @@ input:focus {
     font-size: 3rem;
 }
 
-.show1 h3 {
+.show1 h3
+{
     font-weight: 300;
     font-size: 1.6rem;
 }
+
+.show2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    height: 40vh;
+    border-bottom: 7px rgb(46, 46, 46) solid;
+    padding: 50px 0px 50px 0px;
+}
+
+.show2 h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.show2 h3
+{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.show2 h2, .show2 h3{
+  margin: 0 120px 30px 10px;
+}
+
+.show3 {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    height: 40vh;
+    border-bottom: 7px rgb(46, 46, 46) solid;
+    padding: 50px 0px 50px 0px;
+}
+
+.show3 h2, .show3 h3{
+  margin: 0 0 10px 80px;
+}
+
+.show3 h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.show3 h3
+{
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.show-3-image {
+  padding: 80px 30px 80px 10px
+}
+
+.show4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  height: 40vh;
+  border-bottom: 7px rgb(46, 46, 46) solid;
+  padding: 50px 0px 50px 0px;
+}
+
+.show4 h2 {
+font-weight: 600;
+font-size: 3rem;
+}
+
+.show4 h3
+{
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.show4 h2, .show4 h3{
+margin: 0 50px 10px 20px;
+}
+
+.show-4-image {
+  padding: 10px 10px 0px 40px;
+}
+
+.questions {
+  background-color: #000000;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;;
+}
+
+.questions div h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 70px;
+  padding: 50px 0 50px 0;
+}
+
+.question-1, 
+.question-2,
+.question-3,
+.question-4,
+.question-5,
+.question-6 {
+  background: #303030;
+  padding: 20px 30px 20px 30px;
+  font-weight: 400;
+  font-size: 30px;
+  width: 60%;
+  margin: 5px 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 5px 0 5px 0;
+}
+
+.comenzar-2 {
+  color: #fff;
+  background-color: red;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: none;
+  border: 1px solid red;
+  padding: 17px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ver-netflix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.form-container {
+  padding: 10px 0 5px 0;
+  border-bottom: 7px rgb(46, 46, 46) solid;
+}
+
