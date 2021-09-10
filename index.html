@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Demo Kodemia Blog</title>
   </head>
 
@@ -19,47 +19,59 @@
     <header>
       <div class="logo-contenedor">
         <a href="#">
-          <img src="./img/pngegg.png" class="logotipo" alt="" />
+          <img src="./images/pngegg.png" class="logo" alt="" />
         </a>
+        <nav>
+          <ul class="nav-links-container">
+            <li class="nav-links"><a href="#" alt="">Inicio</a></li>
+            <li class="nav-links"><a href="#" alt="">Acerca de</a></li>
+            <li class="nav-links"><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <nav>
-        <ul>
-          <li><a href="#" alt="">Inicio</a></li>
-          <li><a href="#" alt="">Acerca de</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
     </header>
 
     <section class="page">
       <main class="main">
         <section class="articles">
-          <article>
-            <h2>Articulo 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <article class="article-container">
+            <h2 class="article-title">Articulo 1</h2>
+            <p class="article-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
           </article>
 
-          <article>
-            <h2>Articulo 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <article class="article-container">
+            <h2 class="article-title">Articulo 2</h2>
+            <p class="article-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </article>
+
+          <article class="article-container">
+            <h2 class="article-title">Articulo 2</h2>
+            <p class="article-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
           </article>
         </section>
 
-        <aside>
+        <aside class="aside">
           <section class="sidebar">
-            <h2>Sidebar</h2>
+            <h2 class="side-title">Sidebar</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
-              tempore voluptatem reiciendis iusto officia ipsa molestiae
-              voluptates.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
+              Corrupti tempore voluptatem reiciendis<br />
+              iusto officia ipsa molestiae voluptates. <br></br>Lorem ipsum dolor sit,
+              amet consectetur adipisicing elite. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit.
             </p>
           </section>
         </aside>
       </main>
     </section>
 
-    <footer>
+    <footer class="footer">
       <div class="footer-content">
         <p>Mi footer</p>
       </div>

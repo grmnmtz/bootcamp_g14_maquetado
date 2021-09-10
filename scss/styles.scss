@@ -1,3 +1,92 @@
 body {
-  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  background-color: #2f343f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin displayFlexDynamic($direction, $justify, $align, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+.logo {
+  height: auto;
+  width: 60px;
+  padding: 20px;
+}
+
+.logo-contenedor {
+  @include displayFlexDynamic(row, space-between, center, nowrap);
+  margin: 20px 200px;
+  background-color: #4c5466;
+}
+
+.nav-links-container {
+  @include displayFlexDynamic(row, space-between, center, nowrap);
+  list-style-type: none;
+
+  .nav-links {
+    a {
+      text-decoration: none;
+      padding: 0 20px 0 20px;
+      font-size: 24px;
+      font-weight: 600;
+      color: #98c379;
+    }
+  }
+}
+
+.main {
+  @include displayFlexDynamic(row, space-between, start, nowrap);
+  margin: 0px 200px;
+}
+
+.articles {
+  @include displayFlexDynamic(column, space-evenly, center, wrap);
+}
+
+.article-container {
+  background-color: #4c5466;
+  margin: 0px 0 20px 0;
+  padding: 20px;
+  width: 600px;
+  color: #eceff4;
+  .article-title {
+    font-weight: 700;
+    font-size: 36px;
+    .article-p {
+      font-weight: 400;
+      font-size: 24px;
+    }
+  }
+}
+
+.aside {
+  @include displayFlexDynamic(column, space-between, flex-start, nowrap);
+  background-color: #4c5466;
+  margin: 0 0 0 20px;
+}
+
+.sidebar {
+  @include displayFlexDynamic(column, center, center, wrap);
+  padding: 5px 20px 5px 20px;
+  color: #eceff4;
+  .side-title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+
+.footer {
+  margin: 0px 200px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #4c5466;
 }
