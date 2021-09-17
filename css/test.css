@@ -4,3 +4,8 @@
   width: 500px;
   color: white;
 }
+
+.footer {
+  min-height: 300px;
+  background-color: blueviolet;
+}
