@@ -1,0 +1,90 @@
+.testimonials {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+}
+
+.cards-1,
+.cards-2,
+.cards-3,
+.cards-4,
+.cards-5 {
+  margin: 20px 0 20px 0;
+}
+
+.cards-5 {
+  margin-bottom: 20px;
+}
+
+.cards-wrapper {
+  background-color: transparent;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  min-height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.card-header {
+  display: flex;
+  background-color: transparent;
+  border-bottom: none;
+  align-content: center;
+}
+
+.card-header-p {
+  margin-left: 10px;
+}
+
+.username {
+  font-size: 1rem;
+  color: rgb(43, 43, 43);
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 600;
+}
+
+.verified {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.card-paragraph {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+#card-1:hover {
+  background-color: #f15bb5;
+  color: white;
+}
+
+#card-5:hover {
+  background-color: #9b5de5;
+  color: white;
+}
+
+#card-2:hover {
+  background-color: #fee440;
+}
+
+#card-3:hover {
+  background-color: #00bbf9;
+}
+
+#card-4:hover {
+  background-color: #00f5d4;
+}
