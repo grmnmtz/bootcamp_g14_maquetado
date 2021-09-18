@@ -17,18 +17,264 @@
     <title>Tarea CSS 5 Bootstrap</title>
   </head>
   <body>
+    <!-- Navigation bar section  -->
+
     <header>
-      <div class="container-lg">
-        <div></div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid nav-container">
+            <a class="navbar-brand h2" href="#">Kodemia</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
+    <section class="hero">
+      <div class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="title-container">
+                <h1 class="h1-hero">
+                  Aprende a programar<br />
+                  Sé parte del futuro
+                </h1>
+                <h3 class="h3-hero">
+                  Más que una escuela, somos el aliado que te acompaña para
+                  desarrollarte como programador, antes, durante y después de
+                  nuestros Bootcamps.
+                </h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="hero-image-container">
+                <img
+                  src="./images/undraw_Developer_activity_re_39tg.svg"
+                  class="hero-image"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Sections -->
+
     <main>
-      <div class="container-lg">
-        <div class="row row-md-8"></div>
+      <div class="container">
+        <div class="row cards-wrapper">
+          <div class="col-lg-8">
+            <div class="row first-row">
+              <div class="col-lg-8 cards-1">
+                <div class="card" id="card-1">
+                  <div class="card-header">
+                    <div class="header-image">
+                      <img
+                        src="./images/image-daniel.jpg"
+                        class="user-image"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-header-p">
+                      <p class="username">Daniel Clifford</p>
+                      <p class="verified">Verified Graduate</p>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    I received a job offer mid-course, and the subjects I
+                    learned<br />
+                    were current, if not more so, in the company I joined. I<br />
+                    honestly feel I got every penny’s worth.
+                  </h3>
+                  <p class="card-paragraph">
+                    “ I was an EMT for many years before I joined the bootcamp.
+                    I’ve been looking to make a transition and have heard some
+                    people who had an amazing experience here. I signed up for
+                    the free intro course and found it incredibly fun! I
+                    enrolled shortly thereafter. The next 12 weeks was the best
+                    - and most grueling - time of my life. Since completing the
+                    course, I’ve successfully switched careers, working as a
+                    Software Engineer at a VR startup. ”
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 cards-2">
+                <div class="card" id="card-2">
+                  <div class="card-header">
+                    <div class="header-image">
+                      <img
+                        src="./images/image-jonathan.jpg"
+                        class="user-image"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-header-p">
+                      <p class="username">Jonathan Walters</p>
+                      <p class="verified">Verified Graduate</p>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    The team was very supportive and kept me motivated
+                  </h3>
+                  <p class="card-paragraph">
+                    “ I started as a total newbie with virtually no coding
+                    skills. I now work as a mobile engineer for a big company.
+                    This was one of the best investments I’ve made in myself. ”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row second-row">
+              <div class="col-lg-4 cards-3">
+                <div class="card" id="card-3">
+                  <div class="card-header">
+                    <div class="header-image">
+                      <img
+                        src="./images/image-jeanette.jpg"
+                        class="user-image"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-header-p">
+                      <p class="username">Jeanette Harmon</p>
+                      <p class="verified">Verified Graduate</p>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    An overall wonderful<br />
+                    and rewarding<br />
+                    experience.
+                  </h3>
+                  <p class="card-paragraph">
+                    “ Thank you for the wonderful experience! I now have a job I
+                    really enjoy, and make a good living while doing something I
+                    love. ”
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-8 cards-4">
+                <div class="card" id="card-4">
+                  <div class="card-header">
+                    <div class="header-image">
+                      <img
+                        src="./images/image-patrick.jpg"
+                        class="user-image"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-header-p">
+                      <p class="username">Patrick Abrams</p>
+                      <p class="verified">Verified Graduate</p>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    Awesome teaching support from TAs who did the bootcamp
+                    themselves. Getting guidance from them and learning from
+                    their experiences was easy.
+                  </h3>
+                  <p class="card-paragraph">
+                    “ The staff seem genuinely concerned about my progress which
+                    I find really refreshing. The program gave me the confidence
+                    necessary to be able to go out in the world and present
+                    myself as a capable junior developer. The standard is above
+                    the rest. You will get the personal attention you need from
+                    an incredible community of smart and amazing people. ”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 cards-5">
+            <div class="card" id="card-5">
+              <div class="card-header">
+                <div class="header-image">
+                  <img
+                    src="./images/image-kira.jpg"
+                    class="user-image"
+                    alt=""
+                  />
+                </div>
+                <div class="card-header-p">
+                  <p class="username">Kira Whittle</p>
+                  <p class="verified">Verified Graduate</p>
+                </div>
+              </div>
+
+              <h3 class="card-title">
+                Such a life-changing experience. Highly recommended!
+              </h3>
+              <p class="card-paragraph">
+                “ Before joining the bootcamp, I’ve never written a line of
+                code. I needed some structure from professionals who can help me
+                learn programming step by step. I was encouraged to enroll by a
+                former student of theirs who can only say wonderful things about
+                the program. The entire curriculum and staff did not disappoint.
+                They were very hands-on and I never had to wait long for
+                assistance. The agile team project, in particular, was
+                outstanding. It took my learning to the next level in a way that
+                no tutorial could ever have. In fact, I’ve often referred to it
+                during interviews as an example of my developent experience. It
+                certainly helped me land a job as a full-stack developer after
+                receiving multiple offers. 100% recommend! ”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6"></div>
+        </div>
       </div>
     </main>
     <footer>
-      <div class="container-fluid footer"></div>
+      <div class="container-fluid footer">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">Services</a>
+            <a href="">FAQ</a>
+          </div>
+          <div>
+            <p class="footer-bottom">All Rights Reserved 2021 Kodemia</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script
