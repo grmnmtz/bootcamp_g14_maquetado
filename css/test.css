@@ -11,7 +11,7 @@ main,
 .title-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 50px 100px 50px;
+  padding: 100px 50px;
 }
 
 .h1-hero {
@@ -28,7 +28,7 @@ main,
 
 .hero-image {
   max-width: 90%;
-  padding: 50px 50px 50px 50px;
+  padding: 50px;
 }
 
 .cards-1,
@@ -148,8 +148,27 @@ main,
   padding: 20px;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .footer-links a:hover {
+  background-color: #00f5d4;
+  border-radius: 10px;
+}
+
+.slider-container,
+.slider-content-container {
+  padding: 20px;
+}
+
+.h2-hero {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.h3-hero {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px;
 }
