@@ -1,7 +1,6 @@
-@media (min-width: 320px) and (max-width: 540px) {
+@media (max-width: 480px) {
   .start-button {
-    margin: 0 0 0 140px;
-    /* align-content: center; */
+    margin: 0 100px;
   }
 
   .h1-hero {
@@ -10,10 +9,32 @@
 
   .h3-hero {
     text-align: center;
+    padding: 20px;
   }
 
   .h2-hero {
     text-align: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-image-container {
+    display: none;
+  }
+
+  .start-button {
+    margin: 0 120px;
   }
 
   .transform-container {
