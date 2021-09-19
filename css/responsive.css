@@ -1,40 +1,24 @@
-@media (max-width: 480px) {
-  .start-button {
-    margin: 0 100px;
-  }
-
-  .h1-hero {
-    text-align: center;
-  }
-
-  .h3-hero {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .h2-hero {
-    text-align: center;
+@media (max-width: 767px) {
+  .hero-image-container {
+    display: none;
   }
 
   .footer-links {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .footer-bottom {
     text-align: center;
   }
-}
 
-@media (max-width: 580px) {
-  .hero-image-container {
-    display: none;
-  }
-
-  .start-button {
-    margin: 0 120px;
+  .hero-text-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0;
   }
 
   .transform-container {

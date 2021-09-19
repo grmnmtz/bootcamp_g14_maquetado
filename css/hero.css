@@ -1,27 +1,21 @@
-.title-container {
+.hero-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100%;
-  padding: 30px 0;
 }
 
 .h1-hero {
   font-size: 3rem;
   font-weight: 700;
-  padding: 10px;
-  margin: auto;
-  text-align: left;
+  margin-bottom: 10px;
 }
 
 .h3-hero {
   font-size: 1.5rem;
   font-weight: 400;
-  padding: 10px;
-  margin: auto;
-  text-align: left;
-  margin: 20px 0 50px 0;
+  margin-bottom: 30px;
 }
 
 .start-button {
@@ -44,6 +38,6 @@
 }
 
 .hero-image {
-  max-width: 90%;
+  max-width: 100%;
   padding: 50px;
 }
